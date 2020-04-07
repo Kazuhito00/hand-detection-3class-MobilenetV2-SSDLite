@@ -9,6 +9,10 @@ MobilenetV2-SSDLiteで訓練した手検出(Open/Close/Pointer)のモデルで�
 
 ![2020-04-08 (10)](https://user-images.githubusercontent.com/37477845/78697913-7966cb80-793c-11ea-9742-531cf9522118.png)
 
+手検出用の「frozen_inference_graph.pb」はご自由に利用していただいて構いません。
+
+訓練時のデータが少なく精度がイマイチなため、学習データを追加/訓練し精度アップ版に差し替える予定です。
+
 # Requirement
  
 * Tensorflow 1.14.0
@@ -23,10 +27,7 @@ python sample.py
 ```
 
 # Note
-
-手検出用の「frozen_inference_graph.pb」もご自由に利用していただいて構いません。
-
-訓練時のデータが少なかったため、学習データを追加し、訓練し直して精度アップ版に差し替える予定です。
+訓練には、からあげさんの[Object Detection Tools](https://github.com/karaage0703/object_detection_tools)を使用しています。
 
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
