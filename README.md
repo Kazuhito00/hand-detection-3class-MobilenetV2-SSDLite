@@ -31,4 +31,4 @@ python sample.py
 高橋かずひと(https://twitter.com/KzhtTkhs)
  
 # License 
-object-detection-bbox-art is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+hand-detection-3class-MobilenetV2-SSDLite is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
