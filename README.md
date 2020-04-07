@@ -9,8 +9,6 @@ MobilenetV2-SSDLiteで訓練した手検出(Open/Close/Pointer)のモデルで�
 
 ![2020-04-08 (10)](https://user-images.githubusercontent.com/37477845/78697913-7966cb80-793c-11ea-9742-531cf9522118.png)
 
-手検出用の「frozen_inference_graph.pb」はご自由に利用していただいて構いません。
-
 訓練時のデータが少なく精度がイマイチなため、学習データを追加/訓練し精度アップ版に差し替える予定です。
 
 # Requirement
